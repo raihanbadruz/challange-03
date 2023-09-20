@@ -1,0 +1,54 @@
+{
+  "todos": [
+    {
+      "id": 2,
+      "task": "Memberi makan kucing",
+      "complete": false
+    },
+    {
+      "id": 3,
+      "task": "Olahraga 10 menit",
+      "complete": true
+    },
+    {
+      "id": 4,
+      "task": "Sarapan sereal",
+      "complete": false
+    },
+    {
+      "id": 5,
+      "task": "Belanja harian",
+      "complete": true
+    },
+    {
+      "id": 6,
+      "task": "Ngeprint tugas",
+      "complete": false
+    },
+    {
+      "id": 7,
+      "task": "Bayar tagihan bulanan",
+      "complete": true
+    },
+    {
+      "id": 8,
+      "task": "Berangkat kuliah",
+      "complete": false
+    },
+    {
+      "id": 9,
+      "task": "Les bahasa Inggris",
+      "complete": false
+    },
+    {
+      "id": 10,
+      "task": "Ke rumah Sabrina",
+      "complete": false
+    },
+    {
+      "task": "Ganti Dulu",
+      "complete": false,
+      "id": 11
+    }
+  ]
+}
