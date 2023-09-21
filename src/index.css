@@ -90,6 +90,13 @@ ul li.checked::before {
   clear: both;
 }
 
+.header-bottom {
+  background-color: #34495e;
+  padding: 50px 100px;
+  color: white;
+  text-align: center;
+}
+
 /* Style the input */
 input {
   margin: 0;
@@ -103,6 +110,19 @@ input {
 
 /* Style the "Add" button */
 .add-button {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.add-back {
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
