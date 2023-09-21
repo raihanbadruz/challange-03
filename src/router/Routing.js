@@ -28,8 +28,9 @@ const Header = () => {
         <Row className="header">
           <Col>
             <div id="todo-header">
-              <h2>TodoList</h2>
+              <h2>Add Task</h2>
               <input
+                className="search-list"
                 type="text"
                 value={task}
                 onChange={(e) => settask(e.target.value)}
@@ -40,7 +41,6 @@ const Header = () => {
         </Row>
 
         <Row className="header-bottom">
-          <Col className="col-5"></Col>
           <Col>
             <span className="add-button" onClick={addTodo}>
               Add
@@ -48,7 +48,7 @@ const Header = () => {
           </Col>
           <Col>
             <Link to="/">
-              <span className="add-back">Back to Home</span>
+              <span className="add-back">Back</span>
             </Link>
           </Col>
         </Row>

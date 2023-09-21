@@ -49,6 +49,11 @@
       "task": "Ganti Dulu",
       "complete": false,
       "id": 11
+    },
+    {
+      "task": "Halo",
+      "complete": false,
+      "id": 12
     }
   ]
 }

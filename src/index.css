@@ -90,9 +90,13 @@ ul li.checked::before {
   clear: both;
 }
 
+.search-list {
+  padding-left: 10px;
+}
+
 .header-bottom {
-  background-color: #34495e;
-  padding: 50px 100px;
+  /* background-color: #34495e; */
+  padding: 40px 100px 80px 100px;
   color: white;
   text-align: center;
 }
@@ -120,6 +124,7 @@ input {
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+  margin-left: 200px;
 }
 
 .add-back {
@@ -127,16 +132,35 @@ input {
   width: 25%;
   background: #d9d9d9;
   color: #555;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  margin-right: 200px;
+}
+
+.add-button:hover {
+  background-color: #bbb;
+}
+
+.add-new {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: rgb(66, 63, 63);
   float: left;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
   border-radius: 0;
+  margin-left: 15rem;
 }
 
-.add-button:hover {
-  background-color: #bbb;
+.add-new:hover {
+  background-color: rgb(137, 135, 135);
 }
 
 /* Styling untuk tombol filter */
@@ -187,6 +211,16 @@ li.checked {
 /* Styling saat tombol hapus dihover */
 .close:hover {
   color: #d32f2f;
+}
+
+.pencil {
+  color: #ffd000;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.pencil:hover {
+  color: #e0be27;
 }
 
 .filtering {

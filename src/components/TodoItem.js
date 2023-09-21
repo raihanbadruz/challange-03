@@ -76,11 +76,11 @@ const TodoItem = ({ todo, setRefresh }) => {
           {todo.task}
         </div>
       )}
-      <span className="close" onClick={toggleEdit}>
-        i
+      <span className="pencil" onClick={toggleEdit}>
+        <i className="fa-solid fa-pencil"></i>
       </span>
       <span className="close" onClick={deleteTodo}>
-        x
+        <i className="fa-solid fa-trash"></i>
       </span>
     </li>
   );
